@@ -14,12 +14,46 @@
 </head>
 <body>
     <!-- Nav Bar goes here -->
-    <nav class="nav nav-pills flex-column flex-sm-row">
-        <a class="flex-sm-4 text-sm-center navbar-brand disabled" href="#">Aaron A. Schwartz</a>
-        <a class="flex-sm-2 text-sm-center nav-link" href="index.html">Index</a>
-        <a class="flex-sm-2 text-sm-center nav-link" href="portfolio.html">Portfolio</a>
-        <a class="flex-sm-2 text-sm-center nav-link active" href="contact.html">Contact</a>
-    </nav>
     
+    <nav class="nav nav-pills navbar-dark flex-column flex-sm-row bg-dark">
+         <a class="flex-sm-4 text-sm-center navbar-brand disabled" href="#">Aaron A. Schwartz</a>
+            <a class="flex-sm-2 text-sm-center nav-link" href="index.html">Index</a>
+            <a class="flex-sm-2 text-sm-center nav-link" href="portfolio.html">Portfolio</a>
+            <a class="flex-sm-2 text-sm-center nav-link active" href="contact.html">Contact</a>
+        </nav>
+
+    <!-- Main Content Container -->
+    <main class="container"> 
+        <h1 class="mt-4">
+            Contact Alex <!-- Main content header text -->
+        </h1>
+        <div class="col-xs-fill col-md-10"> <!--Goal: makes our container flexible, full screen XS/S and 1col margin md&up -->
+            <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Name</span>
+                    </div>
+                        <input type="text" placeholder="First" aria-label="First name" class="form-control">
+                        <input type="text" placeholder="Last" aria-label="Last name" class="form-control">
+                    </div>
+                    <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="basic-addon1">e-Mail</span>
+                            </div>
+                                <input type="text" class="form-control" placeholder="example@gmail.com" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Your Message to Alex</span>
+                        </div>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                      </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Copyright&copy; 2018
+            </span>
+        </div>
+    </footer>
 </body>
 </html>
