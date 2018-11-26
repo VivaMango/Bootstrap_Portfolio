@@ -15,26 +15,62 @@
 <body>
     <!-- Nav Bar goes here -->
     
-    <nav class="nav nav-pills navbar-dark flex-column flex-sm-row bg-dark">
-            <a class="flex-sm-4 text-sm-center navbar-brand disabled" href="#">Aaron A. Schwartz</a>
-               <a class="flex-sm-2 text-sm-center nav-link active" href="index.html">Index</a>
-               <a class="flex-sm-2 text-sm-center nav-link" href="portfolio.html">Portfolio</a>
-               <a class="flex-sm-2 text-sm-center nav-link" href="contact.html">Contact</a>
+    <nav class="nav nav-pills navbar-light flex-column flex-sm-row bg-light p-3 mb-3">
+            <a id="navname" class="flex-sm-4 text-sm-center navbar-brand disabled rounded p-2 my-2" href="#">Aaron "Alex" Schwartz</a>
+               <a id="navactive" class="flex-sm-2 text-sm-center nav-link active my-2" href="index.html">Index</a>
+               <a id="navlink" class="flex-sm-2 text-sm-center nav-link my-2" href="portfolio.html">Portfolio</a>
+               <a id="navlink" class="flex-sm-2 text-sm-center nav-link my-2" href="contact.html">Contact</a>
            </nav>
    
        <!-- Main Content Container -->
-       <main class="container"> 
+       <main class="container pb-5 mb-5"> 
            <h1 class="mt-4">
-               About Alex <!-- Main content header text -->
+               Who is Alex Schwartz? <!-- Main content header text -->
            </h1>
            <div class="col-xs-fill col-md-10"> <!--Goal: makes our container flexible, full screen XS/S and 1col margin md&up -->
-            <img src="assets/images/headshot.jpg" class="col-md-2 rounded float-left img-thumbnail " alt="Alex's Headshot">
-            <div class="col-md-fill">Test Biography Text</div>
+            <img src="assets/images/headshot.jpg" class="col-md-2 rounded float-left img-thumbnail m-3" alt="Alex's Headshot">
+            <div class="col-md-fill">
+                 <!-- Biography Body Text -->
+            
+            <!-- First Paragraph -->
+            <p 
+            id="p1bio"
+            class="ptext" 
+        >Alex is currently a 26 year old Full Stack Web Development student with Georgia Tech Professional Education. Based in Atlanta, Georgia, Alex is looking forward to seriously growing his skills as a web developer, beginning with his initial portfolio design. Currently, his biggest regret is not learning enough about Flexbox in CSS to properly style his NavBar. He plans to work on that a little bit more before jumping too far into Bootstrap.
+        </p>
+
+        <br>
+
+        <!-- Second Paragraph -->
+        <p 
+            id="p2bio"
+            class="ptext" 
+        >Before embarking on his journey to web development greatness, Alex has made his mark on several other industries he is sad to leave behind. Coming out of High School, Alex was regarded as one of the best Halo 3 players in the nation and had drawn the attention of several professional players and teams. The next 18 months of his life were spent traveling the United States competing on the Major League Gaming Pro Circuit, complete with 2 Top 16 finishes, and a Top 8 finish.
+        </p>
+
+        <br>
+
+        <!-- Third Paragraph -->
+        <p 
+            id="p3bio"
+            class="ptext" 
+        >As the competitive scene for Halo 3 began to wind down in anticipation of the next release title, Alex hung up his controller and retired from his professional career. Determined to keep his legacy in e-Sports alive, Alex made the transition to the largest e-Sports title available at the time in Starcraft 2. Beginning as a content creator for an Indiana-based organization known as "Team Clash", Alex quickly made a name for himself in the industry and in a few short months would be billed as the owner for the new New-York based "Clarity Gaming". One of the first North American teams to offer a training house in the United States, "Clarity Gaming" shortly became a household name in North American Starcraft 2.
+        </p>
+
+        <br>
+
+        <!-- Fourth Paragraph -->
+        <p
+            id="p4bio"
+            class="ptext"
+        >Following the decline of Starcraft 2 internationally, Alex transitioned into Dye-Sublimation digital printing. With a dedicated focus on technical knowledge and color management, Alex is now highly regarded as an expert in his field, having worked with international brand giants like Coca-cola, Microsoft, Sony, and more, his portfolio of satisfied clients is as extensive as it is impressive. Despite this, Alex has now discovered that his true passions lie deeper in the technical realm, with more of a focus on why software works and how to improve it, rather than just pushing existing apps to their limit. Contact Alex today through his contact page, and thanks for reading!
+        </p>
+            </div>
            </div>
        </main>
-       <footer class="footer"> <!--Footer not working right for some reason-->
+       <footer class="footer sticky-bottom"> <!--Footer not working right for some reason-->
            <div class="container">
-               <span class="text-muted">Copyright&copy; 2018
+               <span class="text">Copyright&copy; 2018
                </span>
            </div>
        </footer>
